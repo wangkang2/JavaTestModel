@@ -3,7 +3,7 @@ package com.wk;
 import java.security.MessageDigest;
 
 /**
- * MD5鎶�鏈姞瀵嗚В瀵�aaaaaaaaaaaaaaaaaaaaaaaa
+ * MD5鎶�鏈姞瀵嗚В瀵�aaaaaaaaaaaaaaaaaaaaaaaa13215
  */
 public class MD5Tools {
     /***
