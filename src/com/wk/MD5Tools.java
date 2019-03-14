@@ -3,11 +3,11 @@ package com.wk;
 import java.security.MessageDigest;
 
 /**
- * MD5技术加密解密
+ * MD5鎶�鏈姞瀵嗚В瀵�aaaaaaaaaaaaaaaaaaaaaaaa
  */
 public class MD5Tools {
     /***
-     * MD5加码 生成32位md5码
+     * MD5鍔犵爜 鐢熸垚32浣峬d5鐮�
      */
     public static String string2MD5(String inStr){
         MessageDigest md5 = null;
@@ -36,7 +36,7 @@ public class MD5Tools {
     }
 
     /**
-     * 加密解密算法 执行一次加密，两次解密
+     * 鍔犲瘑瑙ｅ瘑绠楁硶 鎵ц涓�娆″姞瀵嗭紝涓ゆ瑙ｅ瘑
      */
     public static String convertMD5(String inStr){
 
@@ -49,13 +49,13 @@ public class MD5Tools {
 
     }
 
-    // 测试主函数
+    // 娴嬭瘯涓诲嚱鏁�
     public static void main(String args[]) {
         String s = new String("1233");
-        System.out.println("原始：" + s);
-        System.out.println("MD5后：" + string2MD5(s));
-        System.out.println("加密的：" + convertMD5(s));
-        System.out.println("解密的：" + convertMD5("b3f2e98436564818e85fd1d846f74fe9"));
+        System.out.println("鍘熷锛�" + s);
+        System.out.println("MD5鍚庯細" + string2MD5(s));
+        System.out.println("鍔犲瘑鐨勶細" + convertMD5(s));
+        System.out.println("瑙ｅ瘑鐨勶細" + convertMD5("b3f2e98436564818e85fd1d846f74fe9"));
 
     }
 }
