@@ -3,7 +3,7 @@ package com.wk;
 import java.security.MessageDigest;
 
 /**
- * MD5技术加密解密111111
+ * MD5技术加密解密1222
  */
 public class MD5Tools {
     /***
